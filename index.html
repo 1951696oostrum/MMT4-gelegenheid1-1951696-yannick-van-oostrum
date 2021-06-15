@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>code4kkids</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    
+</head>
+
+<body>
+    <div id="myModal">
+       <div class="modal-content">
+        <span class="close">&times;</span>
+        <h1 id="mh">welkom</h1>
+        <h1 id="bluehtm">ruben</h1>
+        <p class="mp">Welke workshops heb je al gekeken?<br>
+          We zullen die dan alvast voor je afvinken</p>
+
+        <img class="checkmodal" src="./assets/icons/donecheck@2x.png" alt="check@2x.png">
+        
+        <div class="modalbtnwrapper">
+          <button id="mbtn0" class="modalbtn clearfix" onclick="myFunctionca0()">Algemene introductie</button>
+          <button id="mbtn1" class="modalbtn clearfix" onclick="myFunctionca1()">Workshop 1: Kleuren met code</button>
+          <button id="mbtn2" class="modalbtn clearfix" onclick="myFunctionca2()">Workshop 2: Vormen maken</button>
+          <button id="mbtn3" class="modalbtn clearfix" onclick="myFunctionca3()">Workshop 3: Beweging</button>
+          <button id="mbtn4" class="modalbtn clearfix" onclick="myFunctionca4()">Workshop 4: Variabelen gebruiken</button>
+        </div>
+      </div>
+    </div>
+
+      <header class="clearfix">  
+            <nav>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="topnavright">
+                  <button id="lbt" onclick="ldFunction()"></button>
+                </div>
+            </nav>
+    </header>
+
+    <main>
+      <div class="lctwrap">
+          <div class="lctcon">
+                  <h1>
+                    let’s code
+                    <h1 id="blueht">together</h1>
+                  </h1>
+
+                  <p class="lctp">
+                    Van beginner naar expert<br>
+                    Het lesmateriaal brengt je verder
+                  </p>
+              </div>
+
+            <button class="mbtn">aan de slag</button>
+
+            <div class="tumbcon clearfix">
+
+              <div id="tumbcbg">
+                <div id="tumb1">
+                  <div id="icon1" class="icons"></div>
+                  <h2>leer</h2>
+                </div>
+    
+                <div id="tumb2">
+                  <div id="icon2" class="icons"></div>
+                  <h2>Codeer</h2>
+                </div>
+    
+                <div id="tumb3">
+                  <div id="icon3" class="icons"></div>
+                  <h2>Speel</h2>
+                </div>
+              </div>
+            </div>
+    </div>
+
+    <div class="contactwrap clearfix">
+      <div class="contacten">
+        <div class="teamleden clearfix">
+          <div id="teamlid1" class="teamphoto"></div>
+          <h4>Alina kovalchuk</h4>
+          <h4 class="tlv2">Hoofd support</h4>
+        </div>
+
+        <div class="teamleden clearfix">
+          <div id="teamlid2" class="teamphoto"></div>
+          <h4>Alina kovalchuk</h4>
+          <h4 class="tlv2">Hoofd support</h4>
+        </div>
+
+        <div class="teamleden clearfix">
+          <div id="teamlid3"  class="teamphoto"></div>
+          <h4>Alina kovalchuk</h4>
+          <h4 class="tlv2">Hoofd support</h4>
+        </div>
+
+        <div class="blueblock clearfix">
+          <h5>We staan voor je klaar</h5>
+          <div class="bbtn"> <a href="https://www.w3schools.com/">aan de slag</a></div>
+        </div>
+      </div>
+
+     <div class="contactinfo">
+      <h3>ontmoet 
+        <h3 id="bluehtv3">het team</h3>
+      </h3>
+      <p class="contactp">Nullam quis risus eget urna mollis ornare vel eu leo. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+     </div>
+    </div>
+
+    <div class="accordionwrap clearfix">
+        
+      <button class="accordion clearfix"> <p class="act">Algemene introductie</p> <img class="checkac" id="ca0" src="./assets/icons/donecheck@2x.png" alt="check@2x.png"> </button>
+      <div class="panel">
+          <iframe src="https://player.vimeo.com/external/435441132.sd.mp4?s=26f82038e36c5ff9852520def245b15a5e189564&profile_id=165" width="100%" height="480"
+              frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </div>
+      
+      <button class="accordion clearfix"> <p class="act">Workshop 1: Kleuren met code</p> <img class="checkac" id="ca1" src="./assets/icons/donecheck@2x.png" alt="check@2x.png"> </button>
+      <div class="panel">
+        <iframe src="https://player.vimeo.com/external/435441132.sd.mp4?s=26f82038e36c5ff9852520def245b15a5e189564&profile_id=165" width="100%" height="480"
+              frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </div>
+      
+      <button class="accordion clearfix"> <p class="act">Workshop 2: Vormen maken</p> <img class="checkac" id="ca2" src="./assets/icons/donecheck@2x.png" alt="check@2x.png"> </button>
+      <div class="panel">
+        <iframe src="https://player.vimeo.com/external/435441132.sd.mp4?s=26f82038e36c5ff9852520def245b15a5e189564&profile_id=165" width="100%" height="480"
+              frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </div>
+  
+      <button class="accordion clearfix"> <p class="act">Workshop 3: Beweging</p> <img class="checkac" id="ca3" src="./assets/icons/donecheck@2x.png" alt="check@2x.png"> </button>
+      <div class="panel">
+        <iframe src="https://player.vimeo.com/external/435441132.sd.mp4?s=26f82038e36c5ff9852520def245b15a5e189564&profile_id=165" width="100%" height="480"
+              frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </div>
+  
+      <button class="accordion clearfix"> <p class="act">Workshop 4: Variabelen gebruiken</p> <img class="checkac" id="ca4" src="./assets/icons/donecheck@2x.png" alt="check@2x.png"> </button>
+      <div class="panel">
+        <iframe src="https://player.vimeo.com/external/435441132.sd.mp4?s=26f82038e36c5ff9852520def245b15a5e189564&profile_id=165" width="100%" height="480"
+              frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </div>
+    </div>
+
+  </main> 
+
+    <footer class="clearfix">
+      <h3 id="foothead">klaar voor de 
+        volgende uitdaging?</h3>
+        <h5 id="footbodyt">In ons expertprogramma vind je lessen voor gevorderden </h5>
+        <div id="ftbn" class="mbtn"> <a href="https://www.w3schools.com/">aan de slag</a></div>
+      </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
